@@ -1,0 +1,32 @@
+[
+    {
+        "id":1,
+        "name":"YouBella",
+        "img_src":"images/image_1.jpg",
+        "description":"Men's cotton rich formal shirt"
+    },
+    {
+        "id":2,
+        "name":"Shining Diva Fashion",
+        "img_src":"images/image_2.jpeg",
+        "description":"Embroidered cotton blend unstitched material"
+    },
+    {
+        "id":3,
+        "name":"ZDX",
+        "img_src":"images/image_3.jpeg",
+        "description":"Digital black dial Watch"
+    },
+    {
+        "id":4,
+        "name":"Handicraft Kottage",
+        "img_src":"images/image_4.jpeg",
+        "description":"Traditional Jewellery type bangles set"
+    },
+    {
+        "id":5,
+        "name":"ZENEMA",
+        "img_src":"images/image_5.jpeg",
+        "description":"Learning computer for children"
+    }
+]
