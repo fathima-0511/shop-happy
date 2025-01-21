@@ -8,14 +8,16 @@ const App = () => {
   return (
     <>
       <BrowserRouter>
-      <Nav/>
+        <header>
+           <Nav/>
+        </header>
         <Routes>
-     
-          <Route  path='home' element={<Home/>}></Route>
-          <Route path='shop' element={<Shop/>}></Route>
+          <Route  path='/' element={<Home/>}></Route>
+          <Route  path='/home' element={<Home/>}></Route>
+          <Route path='/shop' element={<Shop/>}></Route>
+          <Route path='*' element={<div><h3>Oops!</h3><h4>The page you are looking for is not found...</h4></div>}></Route>
         </Routes>
       </BrowserRouter>
-    
     </>
   )
 }

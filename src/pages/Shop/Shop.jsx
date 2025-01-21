@@ -10,7 +10,7 @@ const shop = () => {
             {
                 Records && Records.map(record => {
                     return(
-                        <div key={record.id} className="card p-2 m-2" style={{width:'250px'}} >
+                        <div key={record.id} className="card p-2 m-2" style={{width:'249px'}} >
                             <a href={record.img_src} target='_blank'>
                             <img src={record.img_src} className='card-img-top' height='250'/>
                             </a>
