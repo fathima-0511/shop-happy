@@ -1,14 +1,15 @@
 import React from 'react';
 import '../Home/Home.css';
-import OnlineShopBg from './online_shop_bg.png';
 
 const Home = () => {
   return (
-      <div className='position-relative'>
-        <div className='position-absolute top-0 end-0'>
-            <img src={OnlineShopBg} alt="" height='600' width='600'/>
+    <div className='home'>
+        <div className='welcome-note'>
+          <h4>Welcome !!!</h4>
+          <h1>SHOP-HAPPY</h1>
         </div>
-     </div>
+    </div>
+      
   )
 }
 

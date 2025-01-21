@@ -1,3 +1,12 @@
 .home{    
+    background-image: url('/public/images/shop_online_bg.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.welcome-note{
+    position: fixed;
+    top:280px;
+    right:100px;
     color: white;
 }
