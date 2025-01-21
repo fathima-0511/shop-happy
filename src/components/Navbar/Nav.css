@@ -17,7 +17,7 @@
     padding-left: 15px;
 }
 .search-box{
-    width: 35%;
+    width: 30%;
     height: 55%;
     background-color: white;
     display: flex;
@@ -51,16 +51,15 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 80px;
+    gap: 60px;
 }
-.nested-nav{
+.nested-nav li{
     color: white;
-    font-size: 15px;
+    font-size: 16px;
 }
 .cart{
     color: white;
     font-size: 30px;
-    
     display: flex;
     align-items: center;
     justify-content: center;
@@ -70,5 +69,13 @@
     font-size: 15px;
     padding-bottom: 20px;
     padding-left: 2px;
+}
+.loginBtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    color: rgb(255, 209, 4);
+    font-size: 18px;
     padding-right: 10px;
 }

@@ -3,6 +3,7 @@ import {Link} from 'react-router-dom';
 import { FaShopify } from "react-icons/fa";
 import { IoSearchCircle } from "react-icons/io5";
 import { BsCart2 } from "react-icons/bs";
+import { FaRegCircleUser } from "react-icons/fa6";
 import '../Navbar/Nav.css';
 
 const Nav = () => {
@@ -18,8 +19,8 @@ const Nav = () => {
             </form>
 
             <div className="nested-nav">
-            <li><Link to='/home'>Home</Link></li>
-            <li><Link to='/shop'>Shop</Link></li>
+            <li><Link to='/home' className='text-white'>Home</Link></li>
+            <li><Link to='/shop' className='text-white'>Shop</Link></li>
             <li>Cart</li>
             <li>Contact</li>
             </div>
@@ -27,6 +28,11 @@ const Nav = () => {
             <div className="cart">
               <BsCart2/>
               <span>0</span>
+            </div>
+
+            <div className='loginBtn'>
+              <FaRegCircleUser/>
+              <span>LogIn</span>
             </div>
         </div>
   )
