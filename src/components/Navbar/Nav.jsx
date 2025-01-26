@@ -1,5 +1,5 @@
 import React from 'react';
-import {Link} from 'react-router-dom';
+import {Link} from 'react-router-dom'; 
 import { FaShopify } from "react-icons/fa";
 import { IoSearchCircle } from "react-icons/io5";
 import { BsCart2 } from "react-icons/bs";
@@ -25,9 +25,9 @@ const Nav = () => {
             <li>Contact</li>
             </div>
 
-            <div className="cart">
+            <div className="cart position-relative">
               <BsCart2/>
-              <span>0</span>
+              <span className='badge rounded rounded-circle bg-danger'>0</span>
             </div>
 
             <div className='loginBtn'>

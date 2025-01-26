@@ -66,9 +66,10 @@
 }
 
 .cart span{
-    font-size: 15px;
-    padding-bottom: 20px;
-    padding-left: 2px;
+    font-size: 10px;
+    position: absolute;
+    top:-5px;
+    left:25px;   
 }
 .loginBtn{
     display: flex;

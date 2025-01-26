@@ -1,37 +1,37 @@
 [
     {
         "id":1,
-        "name":"Bangles",
+        "name":"Smart Watches",
         "img_src":"images/LatestCollections/image_1.jpeg",
         "description":"Traditional Embroidered Jewellery - Bangles set"
     },
     {
         "id":2,
-        "name":"Shining Diva Fashion",
+        "name":"Traditional Bangles",
         "img_src":"images/LatestCollections/image_2.jpeg",
         "description":"Embroidered cotton blend unstitched material"
     },
     {
         "id":3,
-        "name":"ZDX",
+        "name":"Kids toys",
         "img_src":"images/LatestCollections/image_3.jpeg",
         "description":"Digital Watches - Men's dial Watch"
     },
     {
         "id":4,
-        "name":"Handicraft Kottage",
+        "name":"Women's Fashion",
         "img_src":"images/LatestCollections/image_4.jpeg",
         "description":"Traditional Jewellery type bangles set"
     },
     {
         "id":5,
-        "name":"ZENEMA",
+        "name":"Men's Fashion",
         "img_src":"images/LatestCollections/image_5.jpg",
         "description":"Learning computer for children"
     },
     {
-        "id":5,
-        "name":"ZENEMA",
+        "id":6,
+        "name":"Mobiles",
         "img_src":"images/LatestCollections/image_5.jpg",
         "description":"Learning computer for children"
     }
