@@ -2,10 +2,9 @@
     {
          "img_src1":"carasoul/image_1.jpg",
           "img_src2":"carasoul/image_2.jpg",
-           "img_src3":"carasoul/image_3.png",
-            "img_src4":"carasoul/image_4.webp",
-             "img_src5":"carasoul/image_5.jpeg",
-              "img_src6":"carasoul/image_6.jpeg"
+           "img_src3":"carasoul/image_3.jpg",
+            "img_src4":"carasoul/image_4.jpeg",
+             "img_src5":"carasoul/image_5.jpeg"
     }
     
 ]

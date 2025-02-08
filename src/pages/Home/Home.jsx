@@ -4,23 +4,24 @@ import '../Home/Home.css';
 import NewArrivals from '../Home/LatestCollections.json';
 import CarasoulImage1 from '../Home/carasoul/image_1.jpg';
 import CarasoulImage2 from '../Home/carasoul/image_2.jpg';
-import CarasoulImage3 from '../Home/carasoul/image_3.png';
-import CarasoulImage4 from '../Home/carasoul/image_4.jpeg';
+import CarasoulImage3 from '../Home/carasoul/image_3.jpg';
+import CarasoulImage4 from '../Home/carasoul/image_4.jpg';
 import CarasoulImage5 from '../Home/carasoul/image_5.jpg';
-
-
+import CarasoulImage6 from '../Home/carasoul/image_6.webp';
 
 const Home = () => {
   return (
     <>    
     <div className='container-fluid bg-dark'>
-      <div className='d-flex flex-column'>            
-              <Carousel className='mb-2'>
-                    <Carousel.Item>
-                    <img 
-                    className='d-block w-100' height='550px'
-                    src={CarasoulImage1}
-                    alt="First slide" />
+      <div className='d-flex flex-column'>  
+        <div className='mb-2'>          
+              <Carousel>
+                  <Carousel.Item className='bg-img-carasoul-1'>
+                    <div className='carasoulFlex'>
+                      <div className='CarasoulFlexItem'>
+                        Carasoul Image 1
+                      </div>
+                    </div>
                   </Carousel.Item>
                   <Carousel.Item>
                     <img 
@@ -39,6 +40,7 @@ const Home = () => {
                     className='d-block w-100' height='550px'
                     src={CarasoulImage4}
                     alt="First slide" />
+
                   </Carousel.Item>
                   <Carousel.Item>
                     <img 
@@ -46,7 +48,14 @@ const Home = () => {
                     src={CarasoulImage5}
                     alt="First slide" />
                   </Carousel.Item>
-              </Carousel>  
+                  <Carousel.Item>
+                    <img 
+                    className='d-block w-100' height='550px'
+                    src={CarasoulImage6}
+                    alt="First slide" />
+                  </Carousel.Item>
+              </Carousel> 
+            </div> 
                 
 
               {/*<div className='home mb-5'>
@@ -84,4 +93,4 @@ const Home = () => {
   )
 }
 
-export default Home
+export default Home;

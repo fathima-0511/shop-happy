@@ -11,3 +11,28 @@
     color: white;
    text-shadow: 2px 2px rgb(66, 66, 66);
 }
+.bg-img-carasoul-1{
+    width: 100%;
+    height: 500px;
+    background-image: url('./carasoul/image_1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+}
+.carasoulFlex{
+    height: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.CarasoulFlexItem{
+    border: 1px solid navy;
+    border-radius: 10px;
+    width: 400px;
+    height: 200px;
+    padding-right: 200px;
+    background-color: white;
+    color: navy;
+    font-size: 20px;
+}
