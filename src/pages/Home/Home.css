@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 .home{   
     background-image: url('/public/images/shop_online_bg.jpg');
     background-size: cover;
@@ -14,25 +16,111 @@
 .bg-img-carasoul-1{
     width: 100%;
     height: 500px;
-    background-image: url('./carasoul/image_1.jpg');
+    background-image: url('./carasoul/image_1.PNG');
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100% 100%;
-
 }
-.carasoulFlex{
-    height: 550px;
+.carasoulFlex1{
+    height: 600px;
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    margin-top: 150px;
+    justify-content:flex-start;
+    padding-left: 50px;
 }
-.CarasoulFlexItem{
-    border: 1px solid navy;
+.CarasoulFlex1-Item{
+    border-color: none;
     border-radius: 10px;
-    width: 400px;
-    height: 200px;
-    padding-right: 200px;
+    box-sizing: border-box;
+    padding-top: 20px;
+    padding-left: 55px;
+    width: 500px;
+    height: 250px;
     background-color: white;
     color: navy;
     font-size: 20px;
+}
+.shop-mobiles-btn{
+    border: 1px solid navy;
+    border-radius: 50px;
+    width: 200px;
+    padding: 10px;
+    color: #fff;
+    font-size: 15px;
+    font-family: "Montserrat", serif;
+    background-color: navy;
+}
+.bg-img-carasoul-2{
+    width: 100%;
+    height: 500px;
+    background-image: url('./carasoul/image_2.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.carasoulFlex2{
+    height: 600px;
+    display: flex;
+    margin-top: 150px;
+    justify-content:flex-start;
+    padding-left: 50px;
+}
+.CarasoulFlex2-Item{
+    border-color: none;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding-top: 20px;
+    padding-left: 55px;
+    width: 600px;
+    height: 250px;
+    background-color: white;
+    color: navy;
+    font-size: 20px;
+}
+.shop-wathces-btn{
+    border: 1px solid navy;
+    border-radius: 50px;
+    width: 200px;
+    padding: 10px;
+    color: #fff;
+    font-size: 15px;
+    font-family: "Montserrat", serif;
+    background-color: navy;
+}
+.bg-img-carasoul-3{
+    width: 100%;
+    height: 500px;
+    background-image: url('./carasoul/image_3.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.carasoulFlex3{
+    height: 600px;
+    display: flex;
+    margin-top: 150px;
+    justify-content:flex-start;
+    padding-left: 50px;
+}
+.CarasoulFlex3-Item{
+    border-color: none;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding-top: 20px;
+    padding-left: 55px;
+    width: 500px;
+    height: 250px;
+    background-color: white;
+    color: navy;
+    font-size: 20px;
+}
+.shop-appliances-btn{
+    border: 1px solid navy;
+    border-radius: 50px;
+    width: 200px;
+    padding: 10px;
+    color: #fff;
+    font-size: 15px;
+    font-family: "Montserrat", serif;
+    background-color: navy;
 }

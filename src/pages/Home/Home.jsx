@@ -2,12 +2,6 @@ import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import '../Home/Home.css';
 import NewArrivals from '../Home/LatestCollections.json';
-import CarasoulImage1 from '../Home/carasoul/image_1.jpg';
-import CarasoulImage2 from '../Home/carasoul/image_2.jpg';
-import CarasoulImage3 from '../Home/carasoul/image_3.jpg';
-import CarasoulImage4 from '../Home/carasoul/image_4.jpg';
-import CarasoulImage5 from '../Home/carasoul/image_5.jpg';
-import CarasoulImage6 from '../Home/carasoul/image_6.webp';
 
 const Home = () => {
   return (
@@ -17,42 +11,37 @@ const Home = () => {
         <div className='mb-2'>          
               <Carousel>
                   <Carousel.Item className='bg-img-carasoul-1'>
-                    <div className='carasoulFlex'>
-                      <div className='CarasoulFlexItem'>
-                        Carasoul Image 1
+                    <div className='carasoulFlex1'>
+                      <div className='CarasoulFlex1-Item'>
+                        <h1><b>Your Phone Your Style</b></h1>
+                        <br />
+                        <p>Unleash, Express, and Impress</p>
+                        <br />
+                        <button className='shop-mobiles-btn'>Shop Mobiles</button>
                       </div>
                     </div>
                   </Carousel.Item>
-                  <Carousel.Item>
-                    <img 
-                    className='d-block w-100' height='550px'
-                    src={CarasoulImage2}
-                    alt="First slide" />
+                  <Carousel.Item className='bg-img-carasoul-2'>
+                    <div className='carasoulFlex2'>
+                      <div className='CarasoulFlex2-Item'>
+                        <h1><b>Smart Watch DT8 Ultra+</b></h1>
+                        <br />
+                        <p>More than a sport watch, giving you the best screen quality</p>
+                        <br />
+                        <button className='shop-wathces-btn'>Shop Smart Watches</button>
+                      </div>
+                    </div>
                   </Carousel.Item>
-                  <Carousel.Item>
-                    <img 
-                    className='d-block w-100' height='550px'
-                    src={CarasoulImage3}
-                    alt="First slide" />
-                  </Carousel.Item>
-                  <Carousel.Item>
-                    <img 
-                    className='d-block w-100' height='550px'
-                    src={CarasoulImage4}
-                    alt="First slide" />
-
-                  </Carousel.Item>
-                  <Carousel.Item>
-                    <img 
-                    className='d-block w-100' height='550px'
-                    src={CarasoulImage5}
-                    alt="First slide" />
-                  </Carousel.Item>
-                  <Carousel.Item>
-                    <img 
-                    className='d-block w-100' height='550px'
-                    src={CarasoulImage6}
-                    alt="First slide" />
+                  <Carousel.Item className='bg-img-carasoul-3'>
+                    <div className='carasoulFlex3'>
+                      <div className='CarasoulFlex3-Item'>
+                        <h1><b>Home Appliances</b></h1>
+                        <br />
+                        <p>Empower Your Home with Smart Solutions</p>
+                        <br />
+                        <button className='shop-appliances-btn'>Shop Appliances</button>
+                      </div>
+                    </div>
                   </Carousel.Item>
               </Carousel> 
             </div> 

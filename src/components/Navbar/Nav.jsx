@@ -29,9 +29,9 @@ const Nav = () => {
 
         <div className='bottom-nav'>
             <li><Link to='/home' className="custom-link">Home</Link></li>
-            <li><Link to='/shop' className="custom-link">Appliances</Link></li>
-            <li className="custom-link">Jewellery</li>
-            <li><Link to='/electronics' className="custom-link">Electronics</Link></li>
+            <li><Link to='/shop' className="custom-link">Mobiles</Link></li>
+            <li className="custom-link">Watches</li>
+            <li><Link to='/electronics' className="custom-link">Appliances</Link></li>
             <li className="nav-item dropdown" style={{color:'#c9c3c3'}}>
                 <a className="dropdown-toggle custom-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   About
