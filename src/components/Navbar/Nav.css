@@ -96,8 +96,9 @@
 .cart span{
     font-size: 11px;
     position: absolute;
-    top: -5px;
-    left: 20px;
+    color: navy;
+    top: 19px;
+    left: 8px;
     margin-left: 3px;   
 }
 .loginBtn{

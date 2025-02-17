@@ -1,0 +1,26 @@
+[
+    {
+        "id":1,
+        "name":"OnePlus Nord 4 5G",
+        "img_src":"images/MobileCollections/Mobiles/image_1.png",
+        "cost":1200
+    },
+    {
+        "id":2,
+        "name":"Apple iPhone 15",
+        "img_src":"images/MobileCollections/Mobiles/image_2.png",
+        "cost":1050
+    },
+    {
+        "id":3,
+        "name":"Redmi Note 13 5G",
+        "img_src":"images/MobileCollections/Mobiles/image_3.png",
+        "cost":240
+    },
+    {
+        "id":4,
+        "name":"Vivo X200 Pro 5G",
+        "img_src":"images/MobileCollections/Mobiles/image_4.png",
+        "cost":480
+    }
+]

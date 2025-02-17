@@ -4,7 +4,7 @@ import '../Electronics/Electronics.css'
 const Electronics = () => {
   return (
     <>
-    <div className='bg-img-mobile'>Electronics</div>
+    <div>Electronics</div>
     </>
   )
 }

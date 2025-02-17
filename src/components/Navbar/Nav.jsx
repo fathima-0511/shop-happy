@@ -23,7 +23,7 @@ const Nav = () => {
 
             <div className="cart position-relative">
             <i class="bi bi-handbag"></i>
-              <span className='badge rounded  rounded-circle bg-danger'>0</span>
+              <span className='badge rounded-circle bg-light'>0</span>
             </div>
         </div>
 

@@ -1,0 +1,16 @@
+.magazine-block{
+    margin-top: 25px;
+}
+.magazine-block div{
+    width: 400px;
+    height: 300px;
+    margin: 5px;
+    padding: 5px;
+}
+.magazine-block div div{
+    color: rgb(51, 51, 95);
+    margin: 5px;
+    padding-left: 30px;
+    width: 250px;
+    height:150px ;
+}
